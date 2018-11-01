@@ -1,0 +1,22 @@
+table {
+  margin-top: 10px;
+  border: #35424a 3px solid;
+  padding: 0;
+  background: #e8491d;
+}
+
+th {
+  background: #35424a;
+  margin: 0;
+  padding: 5px;
+  border-width: 0;
+  color: #ffffff;
+}
+tr {
+  margin: 0;
+  padding: 0;
+}
+td {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,7 @@
+#paperlink a{
+    text-decoration: none;
+    color: blue;
+}
+.borderstyle {
+  border-bottom:  #35424a 3px solid;
+}

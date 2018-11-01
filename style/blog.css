@@ -1,0 +1,33 @@
+article {
+  margin: 10px;
+  border-radius: 1%;
+  border: #35424a 3px solid;
+  padding: 10px;
+}
+article h1 {
+  border-bottom: #35424a 3px solid;
+  color:#e8491d;
+}
+
+ aside{
+  min-height: 500px;
+  background: #35424a;
+  color: #ffffff;
+  text-align: center;
+}
+
+aside h1 {
+  border-bottom: #e8491d 3px solid;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  article {
+    margin: 10px;
+    float: none;
+  }
+  aside {
+    padding: 6px;
+    min-height: 100px;
+  }
+}

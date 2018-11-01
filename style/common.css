@@ -1,0 +1,142 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+  background-color: #f4f4f4;
+}
+.container {width: 80%; margin: auto; overflow: hidden;}
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+#brandlogo{float: left;}
+.brand1{color: red;}
+.brand2{color: green;}
+.brand3{color: blue;}
+.brand4{color: powderblue;}
+header h1{margin:0;}
+header p{margin: 0;}
+#topmenu{float: right; margin-top: 10px;}
+header ul{margin: 0; padding: 0;}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 0;
+}
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+}
+ header a:hover {
+   color: #e8491d;
+   font-weight: bold;
+ }
+ .fullwidth {
+   width: 100%;
+ }
+nav {
+  background-color: #1C2A43;
+  color: #e8491d;
+}
+nav ul {
+  padding: 0;
+  margin: 20px 0 15px 0;
+}
+nav li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+nav a:hover {
+  color: #e8491d;
+  font-weight: bold;
+}
+.current {
+  color: #e8491d;
+  font-weight: bold;
+}
+.container2 {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+article {
+  width: 60%;
+  float: left;
+  min-height: 500px;
+  margin-top: 35px;
+}
+article h1 {
+  border-bottom: #e8491d 3px solid;
+  padding: 5px;
+}
+aside {
+  width: 25%;
+  float: right;
+  min-height: 500px;
+  margin-top: 10px;
+  padding: 25px;
+  color: #ffffff;
+  background-color: #35424a;
+}
+aside h1 {
+  text-align: center;
+  border-bottom: #e8491d 3px solid;
+  padding:5px;
+}
+
+aside a {
+  text-decoration: none;
+  color: #e8491d;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  background:#35424a;
+  color: #ffffff;
+  padding: 10px 0 10px 0;
+  min-height: 40px;
+  border-top: #ffffff 3px solid;
+}
+footer p {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  header #brandlogo, header #topmenu, header li, nav ul{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  .container2 {
+    width: 100%;
+  }
+  article {
+    width: 90%;
+    margin: auto;
+    float: none;
+    padding: 5px;
+  }
+  aside {
+    min-height: 100px;
+    width: 90%;
+    margin: auto;
+    float: none;
+    padding: 5px;
+  }
+}

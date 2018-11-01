@@ -1,0 +1,21 @@
+#booklink article a{
+    text-decoration: none;
+    color: blue;
+}
+#booklink aside a {
+  text-decoration: none;
+  color: #e8491d;
+}
+.subname {
+  border-bottom:  #35424a 3px solid;
+}
+
+
+
+@@media screen and (max-width:768px) {
+  #bookcontainer,#asidecontainer {
+    width: 100%;
+    float: none;
+  }
+
+}
