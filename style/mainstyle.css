@@ -1,0 +1,260 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+  background-color: #f4f4f4;
+}
+.container {width: 80%; margin: auto; overflow: hidden;}
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+#brandlogo{float: left;}
+.brand1{color: red;}
+.brand2{color: green;}
+.brand3{color: blue;}
+.brand4{color: powderblue;}
+header h1{margin:0;}
+header p{margin: 0;}
+#topmenu{float: right; margin-top: 10px;}
+header ul{margin: 0; padding: 0;}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 0;
+}
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+}
+ header a:hover {
+   color: #e8491d;
+   font-weight: bold;
+ }
+ .fullwidth {
+   width: 100%;
+ }
+nav {
+  background-color: #1C2A43;
+  color: #e8491d;
+}
+nav ul {
+  padding: 0;
+  margin: 20px 0 15px 0;
+}
+nav li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+nav a:hover {
+  color: #e8491d;
+  font-weight: bold;
+}
+.current {
+  color: #e8491d;
+  font-weight: bold;
+}
+#mainpic {
+  min-height: 450px;
+  background: url('../img/main2.jpg');
+  background-size:100%;
+  text-align: center;
+  color: red;
+}
+#mainpic h1 {
+  margin-top: 20px;
+  font-size: 40px;
+  margin-bottom: 0;
+  color: black;
+}
+#exmargin {
+  margin-top: 200px;
+}
+#mainpic p {
+  width: 100%;
+  font-size: 15px;
+  color :red;
+  font-weight: bold;
+}
+#maincontent {
+  width: 100%;
+  text-align: center;
+}
+.container2 {
+  width: 95%;
+}
+article#main_col {
+  float: left;
+  width: 60%;
+  margin: 20px;
+}
+#main_col h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  padding: 0;
+}
+.blackcolor {
+  background-color: black;
+}
+#maincontent #main_col p{
+  font: 20px/1.5 Times, Helvetica, Arial;
+  text-align: justify;
+  text-indent: 25px;
+}
+aside {
+  float: right;
+  width: 30%;
+  margin: 35px 10px 10px 35px;
+  text-align: center;
+}
+aside#sidebar h3 {
+  color: #e8491d;
+  text-align: center;
+  text-transform: uppercase;
+}
+ aside p {
+   text-align: center;
+   text-decoration: none;
+   font-size: 12px/1.5 Helvetica, Times, sans-serif;
+   color: black;
+   background: white;
+   padding: 10px;
+   margin: 10px;
+ }
+ aside#sidebar a {
+   text-decoration: none;
+   padding: 5px;
+   color: blue;
+   font-weight: bold;
+ }
+ aside#sidebar a:hover {
+   color:#e8491d;
+ }
+ .inmiddle{
+   text-align: center;
+   font-weight: bold;
+ }
+ #sideimg img {
+   border-radius: 50%;
+   width: 80%;
+   height: 80%;
+   text-align: center;
+ }
+#sideimg figcaption {
+   text-align: center;
+ }
+.dark {
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin: auto;
+  border: 5px white solid;
+  margin-bottom: 10px;
+}
+.dark p {
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+#boxes {
+  background: #e8491d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+#boxes h1 {
+  margin: 10px 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+#boxes figure {
+  margin: 0;
+  padding: 0;
+}
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+#boxes .boxg {
+  float: left;
+  text-align: center;
+  width: 22%;
+  padding: 10px;
+}
+#boxes .box img {
+  width: 90px;
+  border-radius: 50%;
+}
+#boxes .boxg img {
+  width: 90px;
+  border-radius: 50%;
+}#boxes h3, #boxes p {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  font-size: 12px;
+  text-align: center;
+  background:#35424a;
+  color: #ffffff;
+  padding: 10px 0 10px 0;
+  min-height: 40px;
+  border-top: #ffffff 3px solid;
+}
+footer p {
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+    header #brandlogo, header #topmenu, header li, nav ul{
+      float: none;
+      text-align: center;
+      width: 100%;
+    }
+    #mainpic{
+      background: url('../img/main.jpg') 0 -55px;
+      background-size:cover;
+      background-repeat:no-repeat;
+      min-height: 500px;
+      width: 100%;
+    }
+    #mainpic h1 {
+      color: blue;
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+    #exmargin {
+      margin-top: 15px;
+    }
+    #mainpic p {
+      color: red;
+      font-weight: bold;
+    }
+    article#main_col, aside#sidebar {
+      width: 100%;
+      float: none;
+      margin: auto;
+    }
+    #boxes .box, #boxes .boxg {
+      float: none;
+      width: 100%;
+      margin: auto;
+    }
+}

@@ -1,0 +1,39 @@
+article h1 {
+  text-align: left;
+}
+aside h1 {
+  margin-bottom: 0;
+}
+figure.lastpic {
+  margin-bottom: 20px;
+}
+figure img {
+  width: 100%;
+  height: 100%;
+}
+
+#nextprev {
+  width: 100%;
+  margin: 0;
+  background: #35424a;
+}
+.inleft {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 45%;
+  text-align: left;
+}
+.inright{
+  margin: 0;
+  padding: 0;
+  float: right;
+  width: 45%;
+  text-align: right;
+}
+@@media screen and (max-width:768px){
+  aside {
+    padding: 0 !important;
+    margin-top: 30px;
+  }
+}
